@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Post from './Post';
-let title = ["divorce & family ", "Court marriage", "Real-Estate& Property dispeter lawyers", "Civil lawyers", "Bail"];
+let title = ["divorce & family ", "Court marriage", "Real-Estate& Property dispeter lawyers", "Civil lawyers", "Corporate,Trade and Industrial", "Consumer Protection and Dispute", "Cyber", "Armed forces and Ttribunal"];
 
 class body extends Component {
     render() {
