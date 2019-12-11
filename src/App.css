@@ -1,0 +1,23 @@
+.Container {
+  position: relative;
+  /* width: 90%; */
+  margin: 30px;
+  background: #fff;
+  margin-left: 30px;
+  display: inline;
+  /* grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-gap: 195px;
+  grid-auto-rows: auto; */
+  
+
+}
+.postcontainer{
+  height :300px;
+  width: 200px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-gap: 195px;
+  grid-auto-rows: auto;
+}
+
