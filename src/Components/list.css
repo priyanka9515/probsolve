@@ -1,0 +1,29 @@
+/* .box { */
+    /* height: 130px;
+    width: 90%;
+    text-align: stretch;
+    align-items: flex-start;
+    margin-left: 10px;
+    display: grid;
+    border: 3px solid black;
+    margin-top: 20px; */
+     /* grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: auto;
+    grid-gap: 195px;
+    grid-auto-rows: auto; 
+   */
+    /* grid-template-column: 1fr 1fr 1fr; */
+  /* } */
+  /* .body {
+    background-color: chartreuse;
+  } */
+  /* .box:hover{
+    box-shadow: -2px 2px 2px gray,2px -2px 2px gray
+  } */
+
+  .list{
+      border: 1px solid black;
+      height: 150px;
+      width:90%;
+      margin-bottom: 10px;
+  }
