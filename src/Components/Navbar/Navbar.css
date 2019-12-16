@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  color: #fff;
+  padding: 10px 0px;
+  background: black;
+
+  /* height: 50px;s */
+  justify-content: space-around;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+}
+.nav-left {
+  font-size: 40px;
+}

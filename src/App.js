@@ -1,39 +1,28 @@
 import React from "react";
 import "./App.css";
-// import { Button } from "material/ui-core/Button";
-import Button from "@material-ui/core/Button";
+// import Body from "./Components/Body";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import LawyersList from "./Components/LawyersList";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
+import Signin from "./Components/Navbar/Signin";
+import Signup from "./Components/Navbar/Signup";
+// import Loginup from "./Components/Navbar/Loginup";
+import Main from "./Main.js";
+
 function App() {
   return (
-    <div className="App">
-      <div className="App-header" style={{ fontSize: 80 }}>
-        FIND YOUR BEST LAWYER
-        <div style={{ marginTop: 100, fontSize: 40 }}> ARE YOU A?</div>
-        <div style={{ display: "flex", marginTop: 100 }}>
-          <Button
-            style={{
-              fontSize: 32,
-              backgroundColor: "white",
-              // display: "flex",
-              fontWeight: "bold"
-            }}
-          >
-            Lawyer
-          </Button>
-          <Button
-            style={{
-              fontSize: 32,
-              backgroundColor: "white",
-              // display: "flex"
-              marginTop: 10,
-              marginLeft: 200,
-              fontWeight: "bold"
-            }}
-          >
-            Client
-          </Button>
-        </div>
-      </div>
-    </div>
+    <Router>
+      {/* <Main /> */}
+      <Route exact path="/" component={Main} />
+      <Route path="/Navbar" component={Navbar} />
+      <Route exact path="/Signin" component={Signin} />
+      <Route exact path="/Signup" component={Signup} />
+      {/* <Route exact path="/Loginup" component={Loginup} /> */}
+
+      {/* <Route path="/List" component={Body} /> */}
+      {/* <Route exact path="/LawyersList" component={LawyersList} /> */}
+    </Router>
   );
 }
 
