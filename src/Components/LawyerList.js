@@ -14,8 +14,8 @@ for (let i = 0; i < 25; i++) {
     rating: 0,
     Mobile: faker.phone.phoneNumberFormat(),
     Mail: faker.internet.email(),
-    // img: faker.image.avatar()
-    image: faker.image.image(150, 200, true)
+    img: faker.image.avatar(300, 200, true)
+    // img: faker.image.image(300, 200, true)
   });
 }
 
@@ -31,7 +31,7 @@ class LawyerList extends React.Component {
             // phone={object.img}
             num={object.Mobile}
             email={object.Mail}
-            photo={object.image}
+            photo={object.img}
           />
         ))}
       </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Form, FormGroup, Button, Label, Input } from "reactstrap";
+import { Link } from "react-router-dom";
+
 class Users extends React.Component {
   render() {
     return (
@@ -9,13 +11,16 @@ class Users extends React.Component {
           height: "100px",
           width: "300px",
           marginLeft: "500px",
-          marginTop: "40px"
+          marginTop: "50px"
         }}
       >
         <Form className="signin">
-          <FormGroup bsSize="large">
+          <div style={{ fontWeight: "bold", fontSize: 32, marginLeft: 50 }}>
+            SignUp Form
+          </div>
+          <FormGroup bsSize="large" style={{ marginTop: 30 }}>
             <Label>Email</Label>
-            <Input type="email" placeholder="Email" />
+            <Input type="email" placeholder="you@gmail.com" />
           </FormGroup>
           <FormGroup bsSize="large">
             <Label>Mobile number</Label>
@@ -26,8 +31,16 @@ class Users extends React.Component {
             <Label>password</Label>
             <Input type="password" placeholder="password" />
           </FormGroup>
-          <Button className="btn-lg btn-dark btn-block">Login</Button>
+          <Link to="Body">
+            <Button className="btn-lg btn-dark btn-block">Login</Button>
+          </Link>
         </Form>
+        <div style={{ marginTop: 20 }}>
+          if you have an account ?
+          <Link to="/Signin">
+            <a href="a"> signin</a>
+          </Link>
+        </div>
       </div>
     );
   }

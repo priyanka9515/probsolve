@@ -18,7 +18,7 @@ class Contact extends React.Component {
         <Form className="signin">
           <FormGroup>
             <Label>Email</Label>
-            <Input type="email" placeholder="Email" />
+            <Input type="email" placeholder="you@gmail.com" />
           </FormGroup>
           <FormGroup>
             <Label>password</Label>
