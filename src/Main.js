@@ -8,27 +8,24 @@ class Main extends Component {
       <div className="Main" style={{ fontSize: 80 }}>
         FIND YOUR BEST LAWYER
         <div style={{ marginTop: 100, fontSize: 40 }}> ARE YOU A?</div>
-        <div style={{ display: "flex", marginTop: 100 }}>
+        <div className="Button">
           <Button
             style={{
-              fontSize: 32,
               backgroundColor: "white",
-              // display: "flex"
-              marginTop: 10,
-              marginLeft: 200,
-              fontWeight: "bold"
+              fontSize: 32,
+              fontWeight: "bold",
+              height: 70,
+              marginTop: 30
             }}
           >
             Lawyer
           </Button>
-
-          <Link to="/Navbar">
+          <Link to="/Signup">
             <Button
               style={{
                 fontSize: 32,
                 backgroundColor: "white",
-                // display: "flex"
-                marginTop: 10,
+                marginTop: 30,
                 marginLeft: 200,
                 fontWeight: "bold"
               }}

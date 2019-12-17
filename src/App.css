@@ -11,3 +11,17 @@
   justify-content: center;
   color: white;
 }
+.box {
+  height: 250px;
+  width: 250px;
+  grid-gap: 195px;
+  float: left;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.box:hover {
+  box-shadow: -2px 2px 2px gray, 2px -2px 2px gray;
+}

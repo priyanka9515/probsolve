@@ -24,7 +24,7 @@ class Contact extends React.Component {
             <Label>password</Label>
             <Input type="password" placeholder="password" />
           </FormGroup>
-          <Link to="/List">
+          <Link to="/Body">
             <Button
               className="btn-lg btn-dark btn-block"
               style={{ backgroundColor: "black", color: "white" }}

@@ -7,7 +7,7 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar" style={{ marginTop: 200 }}>
+      <div className="navbar">
         <div style={{ fontSize: 40, marginLeft: 400 }}>
           Find Your Best Lawyer
         </div>
