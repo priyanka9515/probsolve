@@ -16,8 +16,11 @@ class Contact extends React.Component {
         }}
       >
         <Form className="signin">
-          <FormGroup>
-            <Label>Email</Label>
+          <div style={{ fontWeight: "bold", fontSize: 32, marginLeft: 50 }}>
+            SignIn Form
+          </div>
+          <FormGroup style={{ marginTop: 10 }}>
+            <Label>Email/UserName</Label>
             <Input type="email" placeholder="you@gmail.com" />
           </FormGroup>
           <FormGroup>
@@ -33,6 +36,12 @@ class Contact extends React.Component {
             </Button>
           </Link>
         </Form>
+        <div style={{ marginTop: 20 }}>
+          if don't have an account ?
+          <Link to="/Signup">
+            <a href="a"> signUp</a>
+          </Link>
+        </div>
       </div>
     );
   }

@@ -11,14 +11,18 @@ class Users extends React.Component {
           height: "100px",
           width: "300px",
           marginLeft: "500px",
-          marginTop: "50px"
+          marginTop: "30px"
         }}
       >
         <Form className="signin">
           <div style={{ fontWeight: "bold", fontSize: 32, marginLeft: 50 }}>
             SignUp Form
           </div>
-          <FormGroup bsSize="large" style={{ marginTop: 30 }}>
+          <FormGroup bsSize="large" style={{ marginTop: 10 }}>
+            <Label>Name</Label>
+            <Input type="Name" placeholder="FullName" />
+          </FormGroup>
+          <FormGroup bsSize="large">
             <Label>Email</Label>
             <Input type="email" placeholder="you@gmail.com" />
           </FormGroup>
@@ -38,7 +42,7 @@ class Users extends React.Component {
         <div style={{ marginTop: 20 }}>
           if you have an account ?
           <Link to="/Signin">
-            <a href="a"> signin</a>
+            <a href="a"> signIn</a>
           </Link>
         </div>
       </div>
