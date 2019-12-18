@@ -3,6 +3,8 @@ import React from "react";
 import faker from "faker";
 import List from "./List";
 import "./list.css";
+import Modal from "./Modal";
+import { Button } from "@material-ui/core";
 
 let data = [];
 for (let i = 0; i < 25; i++) {
@@ -23,6 +25,7 @@ class LawyerList extends React.Component {
   render() {
     return (
       <div>
+        <Modal />
         {data.map(object => (
           <List
             name={object.name}

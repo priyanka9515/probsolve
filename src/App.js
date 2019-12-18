@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-// import Body from "./Components/Body";
+import Body from "./Components/Body";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LawyerList from "./Components/LawyerList";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -10,7 +10,7 @@ import Signup from "./Components/Navbar/Signup";
 // import Loginup from "./Components/Navbar/Loginup";
 import Main from "./Main.js";
 // import Post from "./Components/Post";
-import Body from "./Components/Body";
+// import Body from "./Components/Body";
 
 function App() {
   return (
