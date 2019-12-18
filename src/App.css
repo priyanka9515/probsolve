@@ -21,6 +21,7 @@
   margin-left: 40px;
   text-align: center;
   font-weight: bold;
+  background-color: #14182e;
 }
 .box:hover {
   box-shadow: -2px 2px 2px gray, 2px -2px 2px gray;

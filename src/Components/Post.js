@@ -10,10 +10,12 @@ class Post extends Component {
     const { title } = this.props;
     return (
       <div className="box">
-        <div style={{ marginTop: "70px", fontSize: "20px" }}>{title}</div>
+        <div style={{ marginTop: "70px", fontSize: "20px", color: "white" }}>
+          {title}
+        </div>
         <Link to="/LawyerList">
           <Button
-            style={{ backgroundColor: "black", color: "white", margin: "50px" }}
+            style={{ backgroundColor: "white", color: "black", margin: "50px" }}
           >
             SHOW LAWYERS
           </Button>

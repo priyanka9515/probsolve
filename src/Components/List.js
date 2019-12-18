@@ -7,9 +7,12 @@ export default class List extends React.Component {
   render() {
     return (
       //   <div>
-      <div className="list" style={{ display: "flex" }}>
+      <div
+        className="list"
+        style={{ display: "flex", backgroundColor: " #14182e" }}
+      >
         <img src={this.props.photo} />
-        <div style={{ display: "column", marginLeft: "40px" }}>
+        <div style={{ display: "column", marginLeft: "40px", color: "white" }}>
           <h5>Name:Mr/Ms.{this.props.name}</h5>
           <h5> Fee :{this.props.price}</h5>
           <h5>experience : {this.props.year}yrs</h5>
