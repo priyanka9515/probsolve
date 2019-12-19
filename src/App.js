@@ -9,6 +9,7 @@ import Signin from "./Components/Navbar/Signin";
 import Signup from "./Components/Navbar/Signup";
 // import Loginup from "./Components/Navbar/Loginup";
 import Main from "./Main.js";
+import UserForm from "./Components/UserForm";
 // import Post from "./Components/Post";
 // import Body from "./Components/Body";
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/Signup" component={Signup} />
       <Route exact path="/Body" component={Body} />
       <Route exact path="/LawyerList" component={LawyerList} />
+      <Route exact path="/UserForm" component={UserForm} />
     </Router>
   );
 }
