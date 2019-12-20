@@ -13,9 +13,9 @@ export default class List extends React.Component {
       >
         <img src={this.props.photo} />
         <div style={{ display: "column", marginLeft: "40px", color: "white" }}>
-          <h5>Name:Mr/Ms.{this.props.name}</h5>
+          <h5>Name:Mr.{this.props.name}</h5>
           <h5> Fee :{this.props.price}</h5>
-          <h5>experience : {this.props.year}yrs</h5>
+          <h5>Experience : {this.props.year}yrs</h5>
           <h5>Mobile :{this.props.num}</h5>
           <h5>email :{this.props.email}</h5>
         </div>

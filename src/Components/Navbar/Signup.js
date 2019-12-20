@@ -36,7 +36,7 @@ class Users extends React.Component {
             <Input type="password" placeholder="password" />
           </FormGroup>
           <Link to="Body">
-            <Button className="btn-lg btn-dark btn-block">Login</Button>
+            <Button className="btn-lg btn-dark btn-block">SignUp</Button>
           </Link>
         </Form>
         <div style={{ marginTop: 20 }}>
